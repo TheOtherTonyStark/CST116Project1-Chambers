@@ -1,34 +1,34 @@
 
 #include <iostream>
 #include <iomanip>
+#include <string>
+using namespace std;
 using std::cout;
 using std::cin;
 using std::endl;
 
-float n1, n2, n3, n4, I1, I2, I3, I4, g1, g2, g3, g4;
+float i1, i2, i3, i4, g1, g2, g3, g4;
+string n1, n2, n3, n4;
 
 int main()
 {
-		cout << "Please enter a name: ";
+		cout << "Please enter 4 name: " << endl;
 		cin >> n1;
-		cout << "Please enter another name: ";
 		cin >> n2;
-		cout << "Please enter another name: ";
 		cin >> n3;
-		cout << "Please enter a final name: ";
 		cin >> n4;
-		cout << "Please enter income level for each name : ";
-		cin >> I1;
-		cin >> I2;
-		cin >> I3;
-		cin >> I4;
-		cout << "Please enter GPA for each name: ";
+		cout << "Please enter income level for each name : " << endl;
+		cin >> i1;
+		cin >> i2;
+		cin >> i3;
+		cin >> i4;
+		cout << "Please enter GPA for each name: " << endl;
 		cin >> g1;
 		cin >> g2;
 		cin >> g3;
 		cin >> g4;
-		cout << n1 << " has an income level of " << I1 << " and a GPA of " << g1;
-		cout << n2 << " has an income level of " << I2 << " and a GPA of " << g2;
-		cout << n3 << " has an income level of " << I3 << " and a GPA of " << g3;
-		cout << n4 << " has an income level of " << I4 << " and a GPA of " << g4;
+		cout << n1 << " has an income level of " << i1 << " and a GPA of " << g1 << endl;
+		cout << n2 << " has an income level of " << i2 << " and a GPA of " << g2 << endl;
+		cout << n3 << " has an income level of " << i3 << " and a GPA of " << g3 << endl;
+		cout << n4 << " has an income level of " << i4 << " and a GPA of " << g4 << endl;
 }
