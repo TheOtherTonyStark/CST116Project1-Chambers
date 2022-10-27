@@ -27,8 +27,8 @@ int main()
 		cin >> g2;
 		cin >> g3;
 		cin >> g4;
-		cout << n1 << " has an income level of " << i1 << " and a GPA of " << g1 << endl;
-		cout << n2 << " has an income level of " << i2 << " and a GPA of " << g2 << endl;
-		cout << n3 << " has an income level of " << i3 << " and a GPA of " << g3 << endl;
-		cout << n4 << " has an income level of " << i4 << " and a GPA of " << g4 << endl;
-}
+		cout << n1 << " has an income level of " << fixed << setprecision(2) << i1 << " and a GPA of " << g1 << endl;
+		cout << n2 << " has an income level of " << fixed << setprecision(2) << i2 << " and a GPA of " << g2 << endl;
+		cout << n3 << " has an income level of " << fixed << setprecision(2) << i3 << " and a GPA of " << g3 << endl;
+		cout << n4 << " has an income level of " << fixed << setprecision(2) << i4 << " and a GPA of " << g4 << endl;
+} 

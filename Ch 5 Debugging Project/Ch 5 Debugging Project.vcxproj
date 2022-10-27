@@ -142,6 +142,9 @@
   <ItemGroup>
     <ClCompile Include="CST116Project1-Chambers.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="CST116Project1-Psuedocode.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
